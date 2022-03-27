@@ -1,0 +1,17 @@
+html {
+    background: hsl(216, 12%, 8%);
+}
+
+body {
+    background: hsl(213, 19%, 18%);
+    max-width: 405px;
+    max-height: 405px;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    
+}

@@ -13,37 +13,46 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+    
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-
   <!-- Rating state start -->
+    <div id="rating">
+        <span id="star"><img src="images/icon-star.svg"></span>
+      <h2>How did we do?</h2>
 
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+            <div>
+                <input type="radio" id="1" name="rating" value="1"><label for="1">1</label>
+                <input type="radio" id="2" name="rating" value="2"><label for="2">2</label>
+                <input type="radio" id="3" name="rating" value="3"><label for="3">3</label>
+                <input type="radio" id="4" name="rating" value="4"><label for="4">4</label>
+                <input type="radio" id="5" name="rating" value="5"><label for="5">5</label>
+            </div>
+        <button type="submit" id="submit">Submit</button>
+    </div>
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
+    <div id="thanks">
+        <div id="result">You selected <!-- Add rating here --> <span id="finalRating"></span> out of 5</div>
 
-  You selected <!-- Add rating here --> out of 5
+      <h2>Thank you!</h2>
 
-  Thank you!
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
 
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
+      <!-- Thank you state end -->
+    </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+    <script src="js/script.js"></script>
+
 </body>
 </html>
