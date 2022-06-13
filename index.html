@@ -15,21 +15,25 @@
   </style>
     
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <!-- Rating state start -->
     <div id="rating">
-        <span id="star"><img src="images/icon-star.svg"></span>
+        <span id="star" class="circle"><img src="images/icon-star.svg"></span>
       <h2>How did we do?</h2>
 
       <p>Please let us know how we did with your support request. All feedback is appreciated 
       to help us improve our offering!</p>
             <div>
-                <input type="radio" id="1" name="rating" value="1"><label for="1">1</label>
-                <input type="radio" id="2" name="rating" value="2"><label for="2">2</label>
-                <input type="radio" id="3" name="rating" value="3"><label for="3">3</label>
-                <input type="radio" id="4" name="rating" value="4"><label for="4">4</label>
-                <input type="radio" id="5" name="rating" value="5"><label for="5">5</label>
+                <input type="radio" id="1" class="circle" name="rating" value="1"><label for="1">1</label>
+                <input type="radio" id="2" class="circle" name="rating" value="2"><label for="2">2</label>
+                <input type="radio" id="3" class="circle" name="rating" value="3"><label for="3">3</label>
+                <input type="radio" id="4" class="circle" name="rating" value="4"><label for="4">4</label>
+                <input type="radio" id="5" class="circle" name="rating" value="5"><label for="5">5</label>
             </div>
         <button type="submit" id="submit">Submit</button>
     </div>
@@ -47,12 +51,8 @@
 
       <!-- Thank you state end -->
     </div>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-    <script src="js/script.js"></script>
 
+
+    <script src="js/script.js"></script>
 </body>
 </html>
